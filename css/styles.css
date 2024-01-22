@@ -38,6 +38,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  position: relative;
 }
 
 .menu {
