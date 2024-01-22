@@ -212,9 +212,13 @@ header {
 }
 
 .list-item .icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  padding: 24px 100px;
 }
 /*===================*/
 
@@ -343,6 +347,8 @@ header {
 }
 
 .foter-description {
+  display: block;
+  text-align: center
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
@@ -359,6 +365,18 @@ header {
   margin: 0 auto 16px;
 }
 
+.soc-media{
+  display: inline-block;
+  text-align: center;
+  margin-left: 269px;
+
+}
+.foter-soc{
+  display: flex;
+  
+  
+ 
+}
 /*===================*/
 
 /*==general-set==*/
