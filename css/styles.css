@@ -61,6 +61,7 @@ header {
 .studio-sub-menu:focus,
 .studio-sub-menu:link {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .kontakt-box {
@@ -74,11 +75,13 @@ header {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.32px;
+  
 }
 
 .adress-data:hover,
 .adress-data:focus {
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-line .container {
