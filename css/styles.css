@@ -58,7 +58,8 @@ header {
 }
 
 .studio-sub-menu:hover,
-.studio-sub-menu:focus {
+.studio-sub-menu:focus,
+.studio-sub-menu:link {
   color: #404bbf;
 }
 
