@@ -12,6 +12,7 @@ body {
 
 header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .top-line {
@@ -108,7 +109,10 @@ header {
     url(/images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   padding: 188px 0;
+  max-width: 1440px;
+  
 }
 
 .hero .container {
@@ -134,6 +138,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .hero-btn:focus,
@@ -263,6 +268,7 @@ header {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .card-info {
@@ -372,7 +378,8 @@ header {
 
 }
 .foter-soc{
-  display: flex;
+  display: inline;
+  
   
   
  
