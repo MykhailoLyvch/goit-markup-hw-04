@@ -38,7 +38,6 @@ header {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  position: relative;
 }
 
 .menu {
@@ -55,6 +54,7 @@ header {
   line-height: 1.5;
   padding: 24px 0;
   display: block;
+  position: relative;
 }
 
 .studio-sub-menu:hover,
