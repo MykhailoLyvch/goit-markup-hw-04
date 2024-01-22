@@ -211,10 +211,11 @@ header {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.profesion {
-  text-align: center;
+.list-item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 /*===================*/
 
 /*===section-2-our-team===*/
@@ -262,6 +263,10 @@ header {
 
 .card-info {
   padding: 32px 0;
+  text-align: center;
+}
+
+.profesion {
   text-align: center;
 }
 
