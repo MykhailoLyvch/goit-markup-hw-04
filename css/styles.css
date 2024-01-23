@@ -482,8 +482,10 @@ header {
   margin-bottom: 16px;
 }
 
-.foter-icon-item {
+.foter-soc .icon-list {
   gap: 16px;
+}
+.foter-icon-item {
   width: 40px;
   height: 40px;
 }
