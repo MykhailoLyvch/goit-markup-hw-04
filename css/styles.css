@@ -488,6 +488,7 @@ header {
 .foter-icon-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foter-soc-link {
@@ -503,6 +504,10 @@ header {
 .foter-soc-link:hover,
 .foter-soc-link:focus {
   background-color: #31d0aa;
+}
+
+.icon-soc-link {
+  fill: #f4f4fd;
 }
 
 /*===================*/
