@@ -436,6 +436,7 @@ header {
   display: flex;
   align-items: baseline;
 }
+
 .logo-studio-footer {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -465,10 +466,23 @@ header {
   margin: 0 auto 16px;
 }
 
-.soc-media {
+.logo-paragraf {
+  margin-right: 120px;
 }
+
 .foter-soc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
+
+.box-end .icon-list {
+  gap: 16px;
+}
+
 /*===================*/
 
 /*==general-set==*/
