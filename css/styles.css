@@ -115,7 +115,7 @@ header {
 
 /*===================*/
 
-/*========hero===========*/
+/*========hero-section===========*/
 
 .hero {
   background: #2e2f42;
@@ -180,7 +180,7 @@ header {
 
 /*===================*/
 
-/*==section-1-properties==*/
+/*==section-2-properties==*/
 
 .h2 {
   color: #2e2f42;
@@ -232,8 +232,13 @@ header {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.list-item .icon {
+.list-item .svg-section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
+  margin-bottom: 8px; 
+  height: 112px;
   border: 1px solid #8e8f99;
   background: #f4f4fd;
   width: 264px;
