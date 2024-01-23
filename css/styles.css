@@ -129,6 +129,7 @@ header {
   background-size: cover;
   padding: 188px 0;
   max-width: 1440px;
+  margin: auto;
 }
 
 .hero .container {
@@ -248,7 +249,7 @@ header {
 }
 /*===================*/
 
-/*===section-2-our-team===*/
+/*===section-3-our-team===*/
 
 .our-team-content {
   background-color: #f4f4fd;
@@ -297,15 +298,23 @@ header {
 .card-info {
   padding: 32px 0;
   text-align: center;
+  color: 4D5AE5;
 }
 
 .profesion {
   text-align: center;
 }
 
+.icon-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+}
+
 /*===================*/
 
-/*==section-3-our-portfolio==*/
+/*==section-4-our-portfolio==*/
 
 .app-title {
   color: #2e2f42;
