@@ -432,6 +432,10 @@ header {
   background-color: #2e2f42;
 }
 
+.box-end .container {
+  display: flex;
+  align-items: baseline;
+}
 .logo-studio-footer {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -462,12 +466,8 @@ header {
 }
 
 .soc-media {
-  display: inline-block;
-  text-align: center;
-  margin-left: 269px;
 }
 .foter-soc {
-  display: inline;
 }
 /*===================*/
 
