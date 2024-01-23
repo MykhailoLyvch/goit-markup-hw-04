@@ -394,7 +394,7 @@ header {
   border-top: none;
 }
 
-.ti-dscr .p:hover {
+.app-description:hover {
   transform: translateY(0%);
 }
 
