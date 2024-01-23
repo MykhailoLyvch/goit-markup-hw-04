@@ -416,10 +416,6 @@ header {
   border-top: none;
 }
 
-.app-description:hover {
-  transform: translateY(0%);
-}
-
 .app-title {
   margin-bottom: 8px;
 }
