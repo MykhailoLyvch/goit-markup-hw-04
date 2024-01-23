@@ -12,7 +12,8 @@ body {
 
 header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .top-line {
@@ -64,12 +65,12 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.studio-sub-menu::after{
-content: '';
-width: 100%;
- position: absolute;
- left: 0; 
- bottom: -1px;
+.studio-sub-menu::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
@@ -86,7 +87,6 @@ width: 100%;
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.32px;
-  
 }
 
 .adress-data:hover,
@@ -129,7 +129,6 @@ width: 100%;
   background-size: cover;
   padding: 188px 0;
   max-width: 1440px;
-  
 }
 
 .hero .container {
@@ -155,7 +154,7 @@ width: 100%;
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:focus,
@@ -285,7 +284,9 @@ width: 100%;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .card-info {
@@ -371,7 +372,7 @@ width: 100%;
 
 .foter-description {
   display: block;
-  text-align: center
+  text-align: center;
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
@@ -388,18 +389,13 @@ width: 100%;
   margin: 0 auto 16px;
 }
 
-.soc-media{
+.soc-media {
   display: inline-block;
   text-align: center;
   margin-left: 269px;
-
 }
-.foter-soc{
+.foter-soc {
   display: inline;
-  
-  
-  
- 
 }
 /*===================*/
 
