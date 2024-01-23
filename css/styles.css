@@ -393,6 +393,11 @@ header {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+.ti-dscr .p:hover {
+  transform: translateY(0%);
+}
+
 .app-title {
   margin-bottom: 8px;
 }
