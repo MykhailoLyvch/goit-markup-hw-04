@@ -94,8 +94,7 @@ header {
 }
 
 .adress-data:hover,
-.adress-data:focus,
-.adress-data:link {
+.adress-data:focus{
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -127,7 +126,7 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -246,10 +245,9 @@ header {
   height: 112px;
   border: 1px solid #8e8f99;
   background: #f4f4fd;
-  width: 264px;
   height: 112px;
   flex-shrink: 0;
-  padding: 24px 100px;
+  
 }
 /*===================*/
 
@@ -277,6 +275,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 8px;
 }
 
 .our-team-content .container {
@@ -302,7 +301,7 @@ header {
 .card-info {
   padding: 32px 0;
   text-align: center;
-  color: 4D5AE5;
+  
 }
 
 .profesion {
